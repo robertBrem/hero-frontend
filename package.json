@@ -11,7 +11,7 @@
     "server": "webpack-dashboard -- webpack-dev-server --inline --port 8080",
     "webdriver-update": "webdriver-manager update",
     "webdriver-start": "webdriver-manager start",
-    "lint": "tslint  --formatters-dir node_modules/tslint-junit-formatter/formatters --format junit -o TESTS-tslint.xml --force \"src/**/*.ts\"",
+    "lint": "tslint --format checkstyle -o TESTS-tslint.xml --force \"src/**/*.ts\"",
     "e2e": "protractor",
     "e2e-live": "protractor --elementExplorer",
     "pretest": "npm run lint",
