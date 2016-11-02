@@ -12,6 +12,7 @@
     "webdriver-update": "webdriver-manager update",
     "webdriver-start": "webdriver-manager start",
     "lint": "tslint --format checkstyle -o REPORTS-tslint.xml --force \"src/**/*.ts\"",
+    "lintlocal": "tslint --force \"src/**/*.ts\"",
     "e2e": "protractor",
     "e2e-live": "protractor --elementExplorer",
     "pretest": "npm run lint",
